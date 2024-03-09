@@ -1,0 +1,21 @@
+{
+  "name": "cypress-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "lint": "tsc --noEmit"
+  },
+  "pre-commit": ["lint"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "cypress": "^13.6.6"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"], 
+      "baseUrl": "./cypress/", 
+      "paths": {
+        "@locators/*": ["/support/locators/*"]
+      }
+    },
+    "include": ["**/*.ts"]
+  }
+  
+  
