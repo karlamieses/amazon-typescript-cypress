@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
       "target": "es5",
+      "module": "NodeNext",  
+      "moduleResolution":"NodeNext" , 
       "lib": ["es5", "dom"],
-      "types": ["cypress", "node"], 
-      "baseUrl": "./cypress/", 
+      "types": ["cypress", "node"],
+      "baseUrl": "./",
       "paths": {
-        "@locators/*": ["/support/locators/*"]
+        "@locators/*":["support/locators/*"]
       }
     },
     "include": ["**/*.ts"]
