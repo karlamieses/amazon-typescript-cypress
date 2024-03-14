@@ -1,5 +1,4 @@
-import {TopNavigationsAddress} from "../../../support/locators/top_navigation_locators"
-
+import {TopNavigationsAddress} from "@locators/top_navigation_locators"
 
 describe("Logout users: Address Popup", () => {
     beforeEach(() => {
