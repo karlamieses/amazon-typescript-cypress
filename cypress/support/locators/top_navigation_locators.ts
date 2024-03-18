@@ -5,3 +5,8 @@ export class TopNavigationsAddress {
     static ZipCodeInputField = 'GLUXZipUpdateInput'
     static ApplyZipCodeButton = 'GLUXZipUpdate'
 }
+
+export class TopNavigationSearch {
+    static SearchBar = 'twotabsearchtextbox'
+    static SearchResultComponent = 's-search-result'
+}

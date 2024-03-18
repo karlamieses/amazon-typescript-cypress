@@ -15,3 +15,7 @@
 Cypress.Commands.add("getElementById", (id_selector: string) => {
     cy.get(`#${id_selector}`)
 })
+
+Cypress.Commands.add("getByDataComponent", (data_component: string) => {
+    cy.get(`[data-component-type="${data_component}"]`)
+})
